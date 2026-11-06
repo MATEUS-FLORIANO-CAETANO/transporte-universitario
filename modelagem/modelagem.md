@@ -2,9 +2,9 @@
 ## 4.MODELAGEM
 ### 4.1.DIAGRAMA DE CASOS DE USO
 ![Diagrama de Casos de Uso](casos-de-uso.drawio.png)
-## 4.2 Especificação do Caso de Uso
+### 4.2 Especificação do Caso de Uso
 
-## UC01. Realizar Reserva de Transporte
+#### UC01. Realizar Reserva de Transporte
 
 Ator principal: Estudante.
 
