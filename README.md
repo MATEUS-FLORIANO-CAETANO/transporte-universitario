@@ -8,10 +8,11 @@ Propor uma solução de software para a organização
 de transportes no âmbito universitário.
 
 ## Integrantes
-- Rafael Cauã Iank — GitHub: @usuario1
 - Abraão de Jesus Ribas — GitHub: @usuario2
 - Alessandro Antunes Batista — GitHub: @usuario3
--  — GitHub: @usuario4
+- Marcos Luan dos Santos: @usuario4
+- Mateus Floriano Caetano
+- Rafael Cauã Iank — GitHub: @usuario1
 
 ## Funcionalidades principais
 - Cadastro de usuários
