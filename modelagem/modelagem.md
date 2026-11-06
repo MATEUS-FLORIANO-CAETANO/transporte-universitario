@@ -42,3 +42,21 @@ Regras de negócio relacionadas: RN02 e RN03.
 
 ### 4.3 DIAGRAMA DE CLASSES
 ![Diagrama de Classes](Diagrama_de_classes.drawio.png)
+
+### 4.4 RASTREABILIDADE DOS MODELOS
+
+| Requisito funcional | Caso de uso correspondente | Classes relacionadas | Regras de negócio |
+|---|---|---|---|
+| RF01 — Cadastro de passageiros | Cadastrar-se no sistema | Estudante | RN01 |
+| RF02 — Login com usuário e senha | Não representado no diagrama; autenticação é pré-condição de UC01. | Estudante (usuario, senha) | Sem RN específica; RN01 é pré-requisito. |
+| RF03 — Dias da semana | UC01 — Realizar Reserva de Transporte¹ | Estudante; Reserva (dataViagem) | RN02 |
+| RF04 — Horários de saída e chegada | UC01 — Realizar Reserva de Transporte | Reserva | RN03 |
+| RF05 — Seleção da instituição de ensino | UC01 — Realizar Reserva de Transporte | Reserva; InstituiçãoEnsino | RN03 |
+| RF06 — Alteração ou cancelamento | Alterar reserva; Cancelar reserva; Verificar prazo de alteração ou cancelamento | Estudante; Reserva | RN09 |
+| RF07 — Cadastro e gestão de ônibus | Gerenciar veículo | Administrador; Ônibus | RN10 |
+| RF08 — Capacidade máxima do ônibus | Gerenciar veículo | Ônibus (capacidadeMaxima); Administrador | RN05; RN10 |
+| RF09 — Quantidade por horário e destino | Consultar demanda de passageiros (consulta; cálculo não explicitado) | Administrador; Reserva; Viagem; InstituiçãoEnsino | RN04; RN06 |
+| RF10 — Distribuição dos passageiros | Sem caso específico; Configurar horário de processamento dá suporte ao agendamento. | Reserva; Viagem; Ônibus; InstituiçãoEnsino; Administrador | RN04; RN05; RN06; RN07 |
+| RF11 — Resultado da organização | Consultar transporte atribuído | Estudante; Reserva; Viagem | RN08 |
+| RF12 — Ônibus, horário e destino | Consultar transporte atribuído | Estudante; Reserva; Viagem; Ônibus; InstituiçãoEnsino | RN08 |
+
