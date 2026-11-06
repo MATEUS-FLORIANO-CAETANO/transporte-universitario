@@ -39,3 +39,6 @@ Fluxo principal:
 Requisitos relacionados: RF02, RF03, RF04, RF05, RF09 e RF10.
 
 Regras de negócio relacionadas: RN02 e RN03.
+
+### 4.3 DIAGRAMA DE CLASSES
+![Diagrama de Classes](Diagrama_de_classes.drawio.png)
