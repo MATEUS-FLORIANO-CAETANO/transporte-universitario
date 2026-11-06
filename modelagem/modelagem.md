@@ -4,21 +4,21 @@
 ![Diagrama de Casos de Uso](casos-de-uso.drawio.png)
 ## 4.2 Especificação do Caso de Uso
 
-### UC01. Realizar Reserva de Transporte
+## UC01. Realizar Reserva de Transporte
 
-**Ator principal:** Estudante.
+Ator principal: Estudante.
 
-**Objetivo:** Permitir que o estudante registre uma solicitação de transporte universitário, informando a data, o horário desejado e a instituição de ensino de destino.
+Objetivo: Permitir que o estudante registre uma solicitação de transporte universitário, informando a data, o horário desejado e a instituição de ensino de destino.
 
-**Pré-condições:**
+Pré-condições:
 - O estudante deve estar cadastrado no sistema.
 - O estudante deve estar autenticado.
 
-**Pós-condições:**
+Pós-condições:
 - A reserva é registrada no sistema.
 - A reserva fica aguardando o processamento automático para a distribuição dos passageiros entre os ônibus disponíveis.
 
-**Fluxo principal:**
+Fluxo principal:
 
 1. O estudante acessa o sistema.
 2. O estudante seleciona a opção "Realizar reserva de transporte".
@@ -32,10 +32,10 @@
 
 **Fluxos alternativos e de exceção:**
 
-- **A1 — Dados inválidos:** caso o estudante informe um horário ou destino inválido, o sistema apresenta uma mensagem de erro e solicita a correção.
-- **A2 — Campos obrigatórios não preenchidos:** o sistema impede a confirmação da reserva até que todas as informações obrigatórias sejam preenchidas.
-- **A3 — Falha no registro:** caso ocorra um erro durante o armazenamento, o sistema informa que a reserva não foi concluída.
+   — Dados inválidos:** caso o estudante informe um horário ou destino inválido, o sistema apresenta uma mensagem de erro e solicita a correção.
+   — Campos obrigatórios não preenchidos:** o sistema impede a confirmação da reserva até que todas as informações obrigatórias sejam preenchidas.
+   — Falha no registro:** caso ocorra um erro durante o armazenamento, o sistema informa que a reserva não foi concluída.
 
-**Requisitos relacionados:** RF02, RF03, RF04, RF05, RF09 e RF10.
+Requisitos relacionados: RF02, RF03, RF04, RF05, RF09 e RF10.
 
-**Regras de negócio relacionadas:** RN02 e RN03.
+Regras de negócio relacionadas: RN02 e RN03.
