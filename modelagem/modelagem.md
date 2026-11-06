@@ -11,12 +11,12 @@ Ator principal: Estudante.
 Objetivo: Permitir que o estudante registre uma solicitação de transporte universitário, informando a data, o horário desejado e a instituição de ensino de destino.
 
 Pré-condições:
-- O estudante deve estar cadastrado no sistema.
-- O estudante deve estar autenticado.
+ O estudante deve estar cadastrado no sistema.
+ O estudante deve estar autenticado.
 
 Pós-condições:
-- A reserva é registrada no sistema.
-- A reserva fica aguardando o processamento automático para a distribuição dos passageiros entre os ônibus disponíveis.
+ A reserva é registrada no sistema.
+ A reserva fica aguardando o processamento automático para a distribuição dos passageiros entre os ônibus disponíveis.
 
 Fluxo principal:
 
