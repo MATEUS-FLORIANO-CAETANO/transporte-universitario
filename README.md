@@ -1,17 +1,17 @@
 # Projeto Integrador — Fundamentos de Engenharia de Software
 
 ## Nome do sistema
-Sistema de Biblioteca Universitária
+Transporte Universitário
 
 ## Objetivo
-Propor uma solução de software para o gerenciamento
-de livros, usuários, empréstimos e devoluções.
+Propor uma solução de software para a organização
+de transportes no âmbito universitário.
 
 ## Integrantes
-- Nome completo — GitHub: @usuario1
-- Nome completo — GitHub: @usuario2
-- Nome completo — GitHub: @usuario3
-- Nome completo — GitHub: @usuario4
+- Rafael Cauã Iank — GitHub: @usuario1
+- Abraão de Jesus Ribas — GitHub: @usuario2
+- Alessandro Antunes Batista — GitHub: @usuario3
+-  — GitHub: @usuario4
 
 ## Funcionalidades principais
 - Cadastro de usuários
