@@ -32,9 +32,9 @@ Fluxo principal:
 
 **Fluxos alternativos e de exceção:**
 
-   — Dados inválidos:** caso o estudante informe um horário ou destino inválido, o sistema apresenta uma mensagem de erro e solicita a correção.
-   — Campos obrigatórios não preenchidos:** o sistema impede a confirmação da reserva até que todas as informações obrigatórias sejam preenchidas.
-   — Falha no registro:** caso ocorra um erro durante o armazenamento, o sistema informa que a reserva não foi concluída.
+   1. Caso o estudante informe um horário ou destino inválido, o sistema apresenta uma mensagem de erro e solicita a correção.
+   2. O sistema impede a confirmação da reserva até que todas as informações obrigatórias sejam preenchidas.
+   3. Caso ocorra um erro durante o armazenamento, o sistema informa que a reserva não foi concluída.
 
 Requisitos relacionados: RF02, RF03, RF04, RF05, RF09 e RF10.
 
