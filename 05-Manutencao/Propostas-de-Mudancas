@@ -1,0 +1,25 @@
+# 8.1 Propostas de Mudanças
+
+Considerando a possibilidade de evolução do sistema de transporte universitário, é necessário identificar mudanças que possam ser necessárias ao longo de sua utilização. Essas alterações podem estar relacionadas à correção de falhas, à adaptação a novas condições de funcionamento, à implementação de melhorias ou à prevenção de objeções futuras. Diante disso, são apresentadas quatro propostas de manutenção, contemplando as categorias corretiva, adaptativa, perfectiva e preventiva.
+
+## Manutenção corretiva – Correção de falhas na distribuição dos passageiros
+
+Propõe-se a correção de possíveis falhas no algoritmo responsável pela distribuição dos passageiros entre os ônibus disponíveis. Durante o processamento das reservas, podem ocorrer erros na atribuição dos estudantes aos veículos, ocasionando distribuições incorretas ou ultrapassando a capacidade máxima cadastrada para determinado ônibus. Dessa forma, essa manutenção se enquadra como corretiva, visto que, tem por objetivo identificar e corrigir empecilhos no funcionamento do sistema, garantindo que a distribuição dos passageiros respeite as regras de negócio estabelecidas, especialmente a RN05, que determina o limite máximo de ocupação dos veículos.
+
+## Manutenção Adaptativa – Adaptação às mudanças nas instituições de ensino
+
+Propõe-se adaptar o sistema para acompanhar possíveis mudanças no calendário acadêmico e nos horários de funcionamento das instituições de ensino atendidas. Para isso, o sistema poderá incorporar mecanismos de atualização dessas informações, permitindo que os responsáveis mantenham os dados utilizados na organização das viagens de acordo com as condições de cada instituição.
+
+Com isso, essa adaptação é classificada como adaptativa, já que procura adequar o software a mudanças em seu ambiente externo de utilização, garantindo que o planejamento do transporte continue compatível com os horários e calendários das instituições atendidas.
+
+## Manutenção perfectiva – Aprimoramento do painel administrativo
+
+Propõe-se aprimorar o painel administrativo por meio da inclusão de relatórios estatísticos que apresentem informações detalhadas sobre a demanda de transporte. Entre os recursos previstos, é relevante estar a quantidade de passageiros por instituição de ensino, os horários com maior procura e a taxa de ocupação dos ônibus disponíveis. Essas informações permitiriam aos administradores acompanhar melhor a utilização dos veículos e identificar padrões na demanda.
+
+A partir disso, pode-se categorizar tal manutenção como sendo perfectiva, dado que, busca aperfeiçoar funcionalidades já existentes, ampliando os recursos de consulta e análise disponíveis aos administradores e contribuindo para um planejamento mais eficiente das viagens.
+
+## Manutenção preventiva – Aprimoramento do monitoramento do sistema
+
+Propõe-se implementar recursos de monitoramento e registro das operações realizadas pelo sistema, especialmente durante o processamento automático das reservas e a distribuição dos passageiros. Esses mecanismos permitiriam registrar o histórico de execuções, identificar possíveis erros e acompanhar o desempenho dos processos, facilitando a identificação de situações que possam comprometer o funcionamento do software.
+
+Portanto, essa manutenção é classificada como preventiva, pois busca antecipar a identificação de possíveis problemas e facilitar sua resolução antes que provoquem falhas mais graves, contribuindo para a confiabilidade e a continuidade do funcionamento do sistema.
