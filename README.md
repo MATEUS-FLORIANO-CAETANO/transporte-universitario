@@ -4,8 +4,7 @@
 Transporte Universitário
 
 ## Objetivo
-Propor uma solução de software para a organização
-de transportes no âmbito universitário.
+Propor uma solução de software para a organização de transportes no âmbito universitário. Permitindo que que os passageiros cadastrem suas necessidades, informando os dias da semana, horários e instituições de ensino de destino. A partir dessas informações, o software deverá processar automaticamente as solicitações em horários definidos, calcular a quantidade de passageiros e realizar a distribuição entre os ônibus disponíveis, considerando a capacidade dos veículos e os destinos informados.
 
 ## Integrantes
 - Abraão de Jesus Ribas — GitHub: @abraaoribas
