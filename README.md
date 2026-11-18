@@ -9,7 +9,7 @@ de transportes no âmbito universitário.
 
 ## Integrantes
 - Abraão de Jesus Ribas — GitHub: @abraaoribas
-- Alessandro Antunes Batista — GitHub: @usuario3
+- Alessandro Antunes Batista — GitHub: @alessandro-antunes
 - Marcos Luan dos Santos: @im-luan
 - Mateus Floriano Caetano — GitHub: @MATEUS-FLORIANO-CAETANO
 - Rafael Cauã Iank — GitHub: @rafaeliank08
